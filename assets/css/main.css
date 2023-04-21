@@ -388,7 +388,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #18bfef !important;
+			color: #000000 !important;
 		}
 
 	strong, b {
@@ -2581,7 +2581,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #18bfef;
+			border-color: #000000;
 		}
 
 	select {
@@ -3294,7 +3294,7 @@ input, select, textarea {
 
 			.pagination a:hover + a,
 			.pagination a:hover + span {
-				border-left-color: #18bfef;
+				border-left-color: #000000;
 			}
 
 		.pagination a.active {
@@ -3472,8 +3472,8 @@ input, select, textarea {
 			#intro input[type="button"]:hover,
 			#intro button:hover,
 			#intro .button:hover {
-				box-shadow: inset 0 0 0 2px #18bfef;
-				color: #18bfef !important;
+				box-shadow: inset 0 0 0 2px #000000;
+				color: #000000 !important;
 			}
 
 			#intro input[type="submit"].primary,
@@ -3491,7 +3491,7 @@ input, select, textarea {
 				#intro input[type="button"].primary:hover,
 				#intro button.primary:hover,
 				#intro .button.primary:hover {
-					background-color: #18bfef;
+					background-color: #000000;
 				}
 
 		#intro h1 {
@@ -3914,7 +3914,7 @@ input, select, textarea {
 		}
 
 		#nav code {
-			background: rgba(255, 255, 255, 0.075);
+			background: rgb(164, 34, 34);
 			border-color: #ffffff;
 		}
 
@@ -4210,7 +4210,7 @@ input, select, textarea {
 
 			#footer a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: rgb(164, 34, 34);
 			}
 
 		#footer strong, #footer b {
@@ -4254,7 +4254,7 @@ input, select, textarea {
 			#footer button:hover,
 			#footer .button:hover {
 				box-shadow: inset 0 0 0 2px #18bfef;
-				color: #18bfef !important;
+				color: #000000 !important;
 			}
 
 			#footer input[type="submit"].primary,
@@ -4272,7 +4272,7 @@ input, select, textarea {
 				#footer input[type="button"].primary:hover,
 				#footer button.primary:hover,
 				#footer .button.primary:hover {
-					background-color: #18bfef;
+					background-color: rgb(164, 34, 34);
 				}
 
 		#footer label {
