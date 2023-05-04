@@ -227,7 +227,7 @@ input, select, textarea {
   display: inline-block;
   padding: 10px;
   text-decoration: none;
-  color: #000;
+  color: rgb(44, 34, 179);
   transition: all 0.3s ease-in-out;
 }
 
@@ -292,6 +292,12 @@ input, select, textarea {
 		}
 	  }
 	  @import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+	  #m{
+		font-family: 'Nova Mono', monospace;
+		text-align: center;
+		display: inline-block;
+		font-style: normal;
+	  }
 	  #moi {
 		font-family: 'Nova Mono', monospace;
 		text-align: center;
@@ -2314,7 +2320,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #212931;
+			background-color: rgb(44, 34, 179);
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -2581,7 +2587,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #000000;
+			border-color: rgb(44, 34, 179);
 		}
 
 	select {
@@ -3007,6 +3013,7 @@ input, select, textarea {
 			height: 1;
 			margin: 0 0 1rem 0;
 			position: relative;
+			font-family: 'Nova Mono', monospace;
 		}
 
 		header > p {
@@ -3472,8 +3479,8 @@ input, select, textarea {
 			#intro input[type="button"]:hover,
 			#intro button:hover,
 			#intro .button:hover {
-				box-shadow: inset 0 0 0 2px #000000;
-				color: #000000 !important;
+				box-shadow: inset 0 0 0 2px rgb(44, 34, 179);
+				color: rgb(44, 34, 179) !important;
 			}
 
 			#intro input[type="submit"].primary,
